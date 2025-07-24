@@ -1,5 +1,5 @@
 # Logs
-.env
+*.env
 logs
 *.log
 npm-debug.log*
@@ -17,9 +17,16 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+### react ###
+.DS_*
+bower_components
+*.sublime*
+psd
+thumb
+sketch
